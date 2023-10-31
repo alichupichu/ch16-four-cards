@@ -23,7 +23,7 @@ body {
   color: $text-color;
   font-size: 1.8rem;
   margin-left: $margin-sml;
-  margin-right: $margin-bsml;
+  margin-right: $margin-sml;
   font-family: Poppins, "Courier New", Courier, monospace;
   margin-bottom: $margin-big;
 }
@@ -62,6 +62,7 @@ header {
     margin-bottom: $margin-header;
   }
 }
+
 .supervisor {
   border-top: solid 4px $color-sup;
 }
