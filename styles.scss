@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+$margin-big: 50px;
+$margin-sml: 30px;
+$margin-header: 20px;
+$main-color: hsl(0, 0%, 98%);
+$text-color: hsl(234, 12%, 34%);
+$card-color: hsl(0, 0, 100);
+$header-size: 2.4rem;
+$color-sup: hsl(180, 62%, 55%);
+$color-tb: hsl(0, 78%, 62%);
+$color-karma: hsl(34, 97%, 64%);
+$color-calc: hsl(212, 86%, 64%);
+$card-width: 310px;
+
+body {
+  background-color: $main-color;
+  color: $text-color;
+  font-size: 1.8rem;
+  margin-left: $margin-sml;
+  margin-right: $margin-bsml;
+  font-family: Poppins, "Courier New", Courier, monospace;
+  margin-bottom: $margin-big;
+}
+main {
+  width: 375px;
+  margin: auto;
+}
+header {
+  margin: auto;
+  width: $card-width;
+  margin-bottom: $margin-sml;
+  margin-top: $margin-big;
+
+  h1,
+  h2,
+  p {
+    text-align: center;
+    margin-bottom: $margin-header;
+  }
+}
+.card {
+  border-radius: 7px;
+  background-color: $card-color;
+  width: $card-width;
+  margin-bottom: $margin-sml;
+  padding: 25px;
+
+  .img-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h3 {
+    margin-bottom: $margin-header;
+  }
+  p {
+    margin-bottom: $margin-header;
+  }
+}
+.supervisor {
+  border-top: solid 4px $color-sup;
+}
+.team-builder {
+  border-top: solid 4px $color-tb;
+}
+.karma {
+  border-top: solid 4px $color-karma;
+}
+.calculator {
+  border-top: solid 4px $color-calc;
+}
+h1 {
+  font-size: $header-size;
+  font-weight: 200;
+}
+h2 {
+  font-size: $header-size;
+  font-weight: 600;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+p {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+.card p {
+  margin-bottom: 50px;
+}
+.intro {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+@media screen and (min-width: 1250px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .card {
+    box-shadow: 0px 15px 20px #999999;
+  }
+  .supervisor div,
+  .calculator div {
+    width: $card-width;
+  }
+}
