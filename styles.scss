@@ -62,25 +62,25 @@ header {
     margin-bottom: $margin-header;
   }
 }
-
 .supervisor {
-  border-top: solid 4px $color-sup;
+  border-top: solid 4px hsl(180, 62%, 55%);
 }
 .team-builder {
-  border-top: solid 4px $color-tb;
+  border-top: solid 4px hsl(0, 78%, 62%);
 }
 .karma {
-  border-top: solid 4px $color-karma;
+  border-top: solid 4px hsl(34, 97%, 64%);
 }
 .calculator {
-  border-top: solid 4px $color-calc;
+  border-top: solid 4px hsl(212, 86%, 64%);
 }
+
 h1 {
-  font-size: $header-size;
+  font-size: 2.4rem;
   font-weight: 200;
 }
 h2 {
-  font-size: $header-size;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 h3 {
@@ -110,6 +110,6 @@ p {
   }
   .supervisor div,
   .calculator div {
-    width: $card-width;
+    width: 310px;
   }
 }
